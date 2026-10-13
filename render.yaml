@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: orders-sync
+    runtime: docker
+    plan: free
+    region: frankfurt
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: SOURCE_URL
+        value: https://test.ooobs.ru/api/orders
