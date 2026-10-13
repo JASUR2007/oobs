@@ -1,0 +1,20 @@
+{
+  "name": "orders-sync",
+  "version": "1.0.0",
+  "description": "Mini-synchronizer for orders with phone normalization and deduplication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "sync",
+    "normalization",
+    "deduplication"
+  ],
+  "author": "",
+  "license": "MIT"
+}
